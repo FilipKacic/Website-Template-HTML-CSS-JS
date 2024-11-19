@@ -107,7 +107,7 @@ button:focus,
 a:focus,
 input:focus,
 textarea:focus {
-  outline: var(--s-size) solid var(--highlight); /* Visible focus for keyboard accessibility */
+  outline: var(--hairline) solid var(--highlight); /* Visible focus for keyboard accessibility */
   outline-offset: var(--s-size);
 }
 

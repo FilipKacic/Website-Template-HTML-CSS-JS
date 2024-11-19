@@ -1,0 +1,12 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: var(--xl-size) 0 var(--l-size);
+    background: linear-gradient(to bottom, transparent, var(--transparent-darker));
+    color: var(--lighter);
+}
+
+html {
+    background-color: var(--transparent-darker);
+}

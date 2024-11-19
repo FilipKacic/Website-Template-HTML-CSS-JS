@@ -1,0 +1,16 @@
+/* Base button styling */
+button {
+    padding: var(--m-size);
+    color: var(--lightest);
+    background: radial-gradient(ellipse at center, var(--dark) 0%, var(--darker) 100%);
+    border: var(--hairline) solid var(--darkest);
+    border-radius: var(--xl-size);
+    margin: var(--m-size);
+    cursor: pointer;
+  }
+  
+  /* Reverse gradient on click */
+  button:active {
+    background: radial-gradient(ellipse at center, var(--darker) 0%, var(--dark) 100%);
+  }
+  

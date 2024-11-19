@@ -2,13 +2,16 @@
     font-family: 'Local-Decor-Font';
     src: url('../fonts/Major_Mono_Display/MajorMonoDisplay-Regular.ttf');
 }
+
 @font-face {
     font-family: 'Local-Main-Font';
     src: url('../fonts/Anonymous_Pro/AnonymousPro-Regular.ttf');
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Local-Decor-Font';
 }
+
 * {
     font-family: 'Local-3', monospace, sans-serif;
 }

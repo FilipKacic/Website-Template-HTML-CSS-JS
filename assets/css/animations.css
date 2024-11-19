@@ -1,0 +1,10 @@
+section {
+    opacity: 0;
+    transform: translateY(30%);
+    transition: opacity var(--heartbeat) ease-in, transform var(--heartbeat) ease-in;
+}
+
+.fade-in-from-bottom {
+    opacity: 1;
+    transform: translateY(0);
+}

@@ -2,9 +2,9 @@
     /* space */
     --hairline: 1px;
     --s-size: 3px;
-    --m-siz: 12px;
-    --l-siz: 48px;
-    --xl-siz: 192px;
+    --m-size: 12px;
+    --l-size: 48px;
+    --xl-size: 192px;
 
     /* color pallete */
     --darkest: black; /* Font and hairline */
@@ -14,7 +14,7 @@
     --light: lightslategray;
     --lighter: gainsboro; /* Background */
     --transparent-lighter: rgba(220, 220, 220, 0.9);
-    --lighest: white; /* Font background */
+    --lightest: white; /* Font background */
     --highlight: aqua;
     
     /* time */
