@@ -1,0 +1,146 @@
+/* Reset */
+
+/* Remove default margin and padding and set box-sizing */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base body and typography setup */
+html {
+  /* Make rem units relative to this font-size */
+  font-size: 100%;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%; /* Prevents font-size adjustments after orientation changes in iOS */
+  scroll-behavior: smooth; /* Smooth scroll for anchor links */
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--darker);
+  background-color: var(--lighter);
+}
+
+/* Remove default styles for common elements */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bolder;
+}
+
+p,
+ul,
+ol,
+dl,
+blockquote,
+pre,
+figure,
+table {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  fill: currentColor;
+}
+
+/* Reset button styles */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: var(--darker);
+  background: var(--lighter);
+  border: var(--hairline) solid var(--darkest);
+  outline: none;
+}
+
+/* Remove spinners on input[type="number"] for Chrome, Safari, Edge */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: calc(var(--s-size)*(-1));
+}
+
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* Box and focus styling */
+button,
+a,
+input,
+textarea {
+  outline: none;
+}
+
+button:focus,
+a:focus,
+input:focus,
+textarea:focus {
+  outline: var(--s-size) solid var(--highlight); /* Visible focus for keyboard accessibility */
+  outline-offset: var(--s-size);
+}
+
+/* Media and form elements */
+fieldset {
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption {
+  display: none;
+}
+
+/* Miscellaneous adjustments */
+hr {
+  border: 0;
+  height: var(--hairline);
+  background: var(--darkest);
+  width: 100%;
+}
+
+abbr[title] {
+  text-decoration: underline dotted;
+}
+
+/* Fluid media for responsive layout */
+iframe,
+embed,
+object {
+  max-width: 100%;
+  height: auto;
+}

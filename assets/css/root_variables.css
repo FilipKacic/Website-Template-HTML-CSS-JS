@@ -1,0 +1,24 @@
+:root {
+    /* space */
+    --hairline: 1px;
+    --s-size: 3px;
+    --m-siz: 12px;
+    --l-siz: 48px;
+    --xl-siz: 192px;
+
+    /* color pallete */
+    --darkest: black; /* Font and hairline */
+    --darker: darkslategray; /* Foreground */
+    --transparent-darker: rgba(47, 79, 79, 0.9);
+    --dark: slategray;
+    --light: lightslategray;
+    --lighter: gainsboro; /* Background */
+    --transparent-lighter: rgba(220, 220, 220, 0.9);
+    --lighest: white; /* Font background */
+    --highlight: aqua;
+    
+    /* time */
+    --blink: 0.3s;
+    --heartbeat: 1s;
+    --waltz: 3s;
+}
